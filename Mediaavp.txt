@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Media</title>
+</head>
+<body>
+<h1 style="text-align:center;">Book Passage</h1>
+<h2>Video</h2>
+<video width="400" height="280" autoplay muted>
+<source src="https://media.istockphoto.com/videos/stedicam-shot-camera-moves-forward-along-shelves-filled-with-paper-video-id1207745492" type="video/mp4">
+<source src="https://media.istockphoto.com/videos/stedicam-shot-camera-moves-forward-along-shelves-filled-with-paper-video-id1207745492" type="vedio/ogg">
+</video>
+<br>
+<br>
+<video width="400" height="280" controls>
+<source src="https://media.istockphoto.com/videos/falling-book-and-reading-grasses-animation-video-id1270376127" type="video/mp4">
+<source src="https://media.istockphoto.com/videos/falling-book-and-reading-grasses-animation-video-id1270376127" type="vedio/ogg">
+</video>
+<br>
+<br>
+<h2>audio</h2>
+<audio controls autoplay muted>
+<source src="https://www.soundjay.com/nature/sounds/river-1.mp3" type="audio/mp4">
+<source src="https://www.soundjay.com/nature/sounds/river-1.mp3" type="audio/ogg">
+</audio>
+<br>
+<br>
+<h2>Plug-ins</h2>
+<object data="https://cdn.elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"></object>
+<embed width="500px" height="300px" src="https://cdn.elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg">
+</body>
+</html>

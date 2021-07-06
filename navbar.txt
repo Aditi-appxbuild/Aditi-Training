@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-image:url('https://codaio.imgix.net/docs/TZJg42kwpu/blobs/bl-oCf632zoQI/e9da422e13d9642010dd933e2de9843465e67a39a93de351d68e252a9545408f2d92697e9ff9d5bf5ffdd9cf88c330d1b1cd71622067581d736c5152499456aa81f82805b42282e9a6cfbd72cfb5f70d40756c95cccb4af64579f91e5d4577d2e06b17e7?auto=format%2Ccompress&fit=max&w=1080&dpr=1');
+color:White;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #e6e6e6;
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 9px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#d9d9d9;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center">Book Passage</h1>
+<h2 style="text-align:center"><pre>R E A D <sup>&</sup> G R O W</pre><h2>
+<p></p>
+
+<ul style="font-size:21px">
+  <li><a href="#home">Contact Us</a></li>
+  <li><a href="#contact">About</a></li>
+  <li><a href="#about">Books</a></li>
+  <li><a href="#home">Home</a></li>
+</ul>
+
+<p style="text-align:center; color:white; font-size:25px;">Looking for new released Books or Bestsellers?<br> 
+Don't worry! We Help you to choose best book as your Requirements<br>
+We sell variety of books like Fiction and Non-fiction, Historical, Religious and many more<br>
+<b>Our main focus is on supplying Indian books by Indian Authors World Wide</b></p>
+<br>
+<br>
+<div style="Background-color:#ffd9b3; Font-size:20px; color:Black; text-align:center">
+<p>Hey! What are you waiting for?<br>
+Buy your 3 Favrioute Books and Get Rewards upto<span style="color:blue;"> 500/-</span><br>
+Hurry Up!</p>
+</div>
+
+</body>
+</html>

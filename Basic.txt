@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Online Library</title>
+</head>
+<!_ _ This is Just an Example_ _>
+<body style="background-color: #ffd9b3;">
+<a href="https://www.buybooksindia.com" target="_blank">Visit Here!</a>
+<h1 style="text-align: center; background-color:Antique white; border: 5px solid White; font-size:50px;">Welcome to Book Passage</h1>
+<h2 style="text-align: center; color:#ff6666;"><abbr>Read and Grow</abbr></h2>
+<br>
+<br>
+<p style="font-size:30px; text-align:center; title='Book Passage';">We sell variety of books like Fiction and Non-fiction, Historical, Religious and many more<br>
+<b>Our main focus is on supplying Indian books by Indian Authors World Wide</b></p>
+<br>
+<br>
+<br>
+<address style="text-align:right">
+Civil Lines<br>
+Nagpur<br>
+Maharashtra<br>
+</address>
+</body>
+</html>

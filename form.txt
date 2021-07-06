@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Forms</title>
+</head>
+<body style="background-image:url('https://edtechmagazine.com/higher/sites/edtechmagazine.com.higher/files/styles/cdw_hero/public/articles/%5Bcdw_tech_site%3Afield_site_shortname%5D/201904/HiEd_042219_tynanonlineextra.png.jpg?itok=Qmqvsy0N');">
+<h1 style="text-align:center; color:white"><mark>Book Passage</mark></h1>
+
+<h2 style="text-align:left;">Suggestion Form</h2>
+<form style="text-align:left;">
+<lable for="fname">Full Name:</lable><br>
+<input type="text" id="fname" name="fname" value="Aditi" readonly></input><br>
+<lable for="sug">Your Suggestion:</lable><br>
+<input type="text" id="sug" name="sug"></input><br>
+<lable for="ph">Your Contact Number:</lable><br>
+<input type="tel" id="ph" name="phone" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}"></input><br>
+<br>
+<input type="submit" name="submit">
+<input type="submit" formtarget="_blank" value="Submit to new window"></input>
+</form>
+<br>
+
+<h2>Feedback Form</h2>
+<form>
+<lable for="yn">Your Name:</lable><br>
+<input type="text" id="yn" name="yn" value="Aditi" disabled><br>
+<lable for="fb">Feedback:</lable><br>
+<input type="text" id="fb" name="fb"></input><br>
+<br>
+<input type="image" src="https://ederdiaz.dev/assets/static/yol2fncriy20kmjb3pdw.dc72452.59437bc.gif" value="Select" style="width=15%;height=10%"></input>
+</form>
+<br>
+
+<h2>Rate us</h2>
+<form>
+<input type="radio" id="o" name="ru" value="Outstanding"></input>
+<lable for="o">Outstanding</lable><br>
+<input type="radio" id="e" name="ru" value="Excellent"></input>
+<lable for="e">Excellent</lable><br>
+<input type="radio" id="g" name="ru" value="Good"></input>
+<lable for="g">Good</lable>
+</form>
+<br>
+
+<h2>Your Favroite Book Caterories</h2>
+<form>
+<input type="checkbox" id="fic" name="fav_cat" value="fiction"></input>
+<lable for="fic">Fiction Books</lable><br>
+<input type="checkbox" id="nonfic" name="fav_cat" value="non-fiction"></input>
+<lable for="nonfic">Non-Fiction Books</lable><br>
+<input type="checkbox" id="nov" name="fav_cat" value="novel"></input>
+<lable for="nov">Novels</lable><br>
+<input type="checkbox" id="his" name="fav_cat" value="historic"></input>
+<lable for="his">Historical Books</lable>
+</form>
+<br>
+
+<br>
+<form>
+<lable for="bocat"; style="font-size:20px;"><u><b>Choose Your Faviroute Book Category</b></u></lable><br><br>
+<select id="bocat" name="book_categories">
+<option value="fiction">Fiction</option>
+<option value="non-fiction">Non-Fiction</option>
+<option value="relagious">Religious</option>
+<option value="historic">Historical</option>
+<option value="novels" selected>Novels</option>
+</select><br><br>
+<input type="submit" value="select"></input>
+</form>
+<br>
+
+<h2>Bestsellers</h2>
+<form style="font-size:20px;">
+<lable for="bestsell">Recently Published</lable><br>
+<select id="bestsell" name=bestsellers" size=5 multiple>
+<option value="fiction">Everyone Has a Story</option>
+<option value="non-fiction">Arjuna</option>
+<option value="relagious">Ramayana</option>
+<option value="historic">Panipat</option>
+<option value="novels" selected>Challenging Destini of Shivaji</option>
+<option value="fiction">Once in a Life</option>
+<option value="relagious">Mahabharta</option>
+</select><br>
+<input type="submit" name="Submit"></input><br><br>
+
+<lable for="quantity"><b><i>Enter the quantity of books from 1 to 10:</i></b></lable><br>
+<input type="number" id="quantity" min="1" max="10" step="2"></input>
+<input type="submit" name="submit"></input>
+</form>
+<br>
+
+<h3>Sign In</h3>
+<form style="font-size:15px;">
+<lable for="user">Username:</lable><br>
+<input type="username" id="user" name="your_name" autofocus></input><br>
+<lable for="em">E-mail:</lable><br>
+<input type="email" id="em" name="e-mail" required></input><br>
+<lable for=pwd">Password:</lable><br>
+<input type="Password" id="pwd" name="your_pass" maxlength="8" size="8"></input><br><br>
+<input type="button" onclick="alert('You Are Signed In!')" value="Sign In">
+</form>
+<br>
+
+<h3><i>Duration to complete reading a book</i></h3>
+<form style="font-size:15px;">
+<lable for="maxd">Starting Date from</lable><br>
+<input type="date" id="maxd" name="max_date" max="3-7-21"></input><br>
+<lable for="mind">Finishing Date befor</lable><br>
+<input type="date" id="mind" name="min_date" min="3-7-22"></input><br><br>
+<input type="submit" onclick="alert('Your Response is Recorded!')" value="Select"></input><br>
+<br>
+
+<lable for="ti">Select a Time</lable><br>
+<input type="time" id="ti" name="time_please"></input>
+<input type="submit" name="record" value="Record"></input><br>
+<br>
+
+<h2>Book Name</h2>
+<form style="font-size:15px;">
+<lable for="see">Search Here</lable><br>
+<input type="search" id="see" name="searcg_here" autocomplete="on"></input>
+<input type="submit" name="Go" value="Go"></input><br>
+
+</form>
+<br>
+
+<br>
+<footer style="text-align:center; font-size:25px; color:white"><b>Contact us!</b></footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

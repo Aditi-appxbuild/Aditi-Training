@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+background-image:url('https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash-1536x901.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size=100% 100%;
+}
+table, th, td {
+border:1px solid black;
+border-collapse:collapse;
+}
+th,td{
+text-align:center;
+padding: 10px;
+}
+footer{
+padding:10px;
+background-color:#80bfff;
+color: black;
+text-align:center;
+font-size:20px;
+}
+<title>Kist</title>
+</style>
+</head>
+<body>
+<h1 style="color:white; text-align:center; font-size:40px;"><u>Book Passage</u></h1>
+<h2 style="text-align:center; color:white">R E A D <sup>&</sup> G R O W</h2>
+<br>
+<p style="text-align:center; color:white; font-size:25px;">Looking for new released Books or Bestsellers?<br> 
+Don't worry! We Help you to choose best book as your Requirement<br>
+We sell variety of books like Fiction and Non-fiction, Historical, Religious and many more<br>
+<b>Our main focus is on supplying Indian books by Indian Authors World Wide</b></p>
+<div style="Background-color:#ffd9b3; Font-size:20px; color:Black; text-align:center">
+<p>Hey! What are you waiting for?<br>
+Buy your 3 Favrioute Books and Get Rewards upto<span style="color:blue;"> 500/-</span><br>
+Hurry Up!</p>
+</div>
+<br>
+<ol style="color:white; font-size:20px;">
+<li>Fiction</li>
+<li>Non-Fiction</li>
+<li>Novels</li>
+<li>Biographies</li>
+</ol>
+<hr>
+<dl style="color:white; font-size:20px;">
+<dt>Fiction</dt>
+<ul>
+<li><dd>The Power of Subconcious Mind</dd></li>
+<li><dd>Everyone Has a Story</dd></li>
+<li><dd>Once in a LIFE</dd></li>
+</ul>
+<dt>Non-Fiction</dt>
+<ul>
+<li><dd>Army Power</dd></li>
+<li><dd>Arjuna</dd></li>
+<li><dd>Ramayan</dd></li>
+</ul>
+<dt>Novels</dt>
+<ul>
+<li><dd>The Illusion power</dd></li>
+<li><dd>The God of Small Things</dd></li>
+<li><dd>The White Tiger</dd></li>
+</ul>
+<dt>Biographies</dt>
+<ul>
+<li><dd>Wings of Fire</dd></li>
+<li><dd>Swamivivekananda-A Biography</dd></li>
+<li><dd>Chatrapati Shivaji Maharaj</dd></li>
+</ul>
+</dl>
+<hr>
+<img src="https://libraries.mit.edu/news/files/2014/03/ebboks.jpeg" alt="Online Book Store" style="width:30%; height:20%;">
+<hr>
+<table style="color:Black; width:80%; background-color:#ffe6e6;">
+<caption style="color:white; font-size:25px"><b>Available Books</b></caption>
+<tr style="background-color:#ff9999">
+<th>Sr no.</th>
+<th>Book Name</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+<tr>
+<td>1</td>
+<td>The White Tiger</td>
+<td>600/-</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The God of Small Things</td>
+<td>500/-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Wings of Fire</td>
+<td>800/-</td>
+<td>20</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Power of Subconcious Mind</td>
+<td>700/-</td>
+<td>11</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Everone has a Story</td>
+<td>400/-</td>
+<td>7</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Everone has a Story 2</td>
+<td>400/-</td>
+<td>10</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Ramayana</td>
+<td>900/-</td>
+<td>10</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Ikigai</td>
+<td>400/-</td>
+<td>9</td>
+</tr>
+<tr>
+<td>9</td>
+<td>The Blue Umbrella</td>
+<td>800/-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Playing To Win- Saina Nehwal</td>
+<td>350/-</td>
+<td>11</td>
+</tr>
+<br>
+<br>
+<br>
+<h2 style="text-align:left; color:white">Suggestion Form</h2>
+<form style="text-align:left; color:white">
+<lable for="fname">Full Name:</lable><br>
+<input type="text" id="fname" name="fname" value="Aditi" readonly></input><br>
+<lable for="sug">Your Suggestion:</lable><br>
+<input type="text" id="sug" name="sug"></input><br>
+<lable for="ph">Your Contact Number:</lable><br>
+<input type="tel" id="ph" name="phone" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}"></input><br>
+<br>
+<input type="submit" name="submit">
+<input type="submit" formtarget="_blank" value="Submit to new window"></input>
+</form>
+<br>
+
+<h2 style="text-align:left; color:white">Feedback Form</h2>
+<form style="text-align:left; color:white">
+<lable for="yn">Your Name:</lable><br>
+<input type="text" id="yn" name="yn" value="Aditi" disabled><br>
+<lable for="fb">Feedback:</lable><br>
+<input type="text" id="fb" name="fb"></input><br>
+<br>
+<input type="image" src="https://ederdiaz.dev/assets/static/yol2fncriy20kmjb3pdw.dc72452.59437bc.gif" value="Select" style="width=15%;height=10%"></input>
+</form>
+<br>
+
+<h2 style="text-align:left; color:white">Rate Us</h2>
+<form style="text-align:left; color:white">
+<input type="radio" id="o" name="ru" value="Outstanding"></input>
+<lable for="o">Outstanding</lable><br>
+<input type="radio" id="e" name="ru" value="Excellent"></input>
+<lable for="e">Excellent</lable><br>
+<input type="radio" id="g" name="ru" value="Good"></input>
+<lable for="g">Good</lable>
+</form>
+<br>
+
+<h2 style="text-align:left; color:white">Your Favroite Book Caterories</h2>
+<form style="text-align:left; color:white">
+<input type="checkbox" id="fic" name="fav_cat" value="fiction"></input>
+<lable for="fic">Fiction Books</lable><br>
+<input type="checkbox" id="nonfic" name="fav_cat" value="non-fiction"></input>
+<lable for="nonfic">Non-Fiction Books</lable><br>
+<input type="checkbox" id="nov" name="fav_cat" value="novel"></input>
+<lable for="nov">Novels</lable><br>
+<input type="checkbox" id="his" name="fav_cat" value="historic"></input>
+<lable for="his">Historical Books</lable>
+</form>
+<br>
+
+<br>
+<form style="text-align:left; color:white">
+<lable for="bocat"; style="font-size:20px; color:white"><u><b>Choose Your Faviroute Book Category</b></u></lable><br><br>
+<select id="bocat" name="book_categories">
+<option value="fiction">Fiction</option>
+<option value="non-fiction">Non-Fiction</option>
+<option value="relagious">Religious</option>
+<option value="historic">Historical</option>
+<option value="novels" selected>Novels</option>
+</select><br><br>
+<input type="submit" value="select"></input>
+</form>
+<br>
+
+
+<h2 style="text-align:left; color:white">Bestsellers</h2>
+<form style="text-align:left; color:white">
+<lable for="bestsell">Recently Published</lable><br>
+<select id="bestsell" name=bestsellers" size=5 multiple>
+<option value="fiction">Everyone Has a Story</option>
+<option value="non-fiction">Arjuna</option>
+<option value="relagious">Ramayana</option>
+<option value="historic">Panipat</option>
+<option value="novels" selected>Challenging Destini of Shivaji</option>
+<option value="fiction">Once in a Life</option>
+<option value="relagious">Mahabharta</option>
+</select><br>
+<input type="submit" name="Submit"></input><br><br>
+
+<lable for="quantity"><b><i>Enter the quantity of books from 1 to 10:</i></b></lable><br>
+<input type="number" id="quantity" min="1" max="10" step="2"></input>
+<input type="submit" name="submit"></input>
+</form>
+<br>
+
+<h2 style="text-align:left; color:white">Sign In</h2>
+<form style="text-align:left; color:white">
+<lable for="user">Username:</lable><br>
+<input type="username" id="user" name="your_name" autofocus></input><br>
+<lable for="em">E-mail:</lable><br>
+<input type="email" id="em" name="e-mail" required></input><br>
+<lable for=pwd">Password:</lable><br>
+<input type="Password" id="pwd" name="your_pass" maxlength="8" size="8"></input><br><br>
+<input type="button" onclick="alert('You Are Signed In!')" value="Sign In">
+</form>
+<br>
+
+<h2 style="text-align:left; color:white">Duration to complete reading a book</h2>
+<form style="text-align:left; color:white">
+<lable for="maxd">Starting Date from</lable><br>
+<input type="date" id="maxd" name="max_date" max="3-7-21"></input><br>
+<lable for="mind">Finishing Date befor</lable><br>
+<input type="date" id="mind" name="min_date" min="3-7-22"></input><br><br>
+<input type="submit" onclick="alert('Your Response is Recorded!')" value="Select"></input><br>
+<br>
+
+<lable for="ti" "color:white">Select a Time</lable><br>
+<input type="time" id="ti" name="time_please"></input>
+<input type="submit" name="record" value="Record"></input><br>
+<br>
+
+<h2 style="text-align:left; color:white">Book Name</h2>
+<form style="font-size:15px; color:white">
+<lable for="see">Search Here</lable><br>
+<input type="search" id="see" name="searcg_here" autocomplete="on"></input>
+<input type="submit" name="Go" value="Go"></input><br>
+
+</form>
+<br>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+ background-color:#ffc34d;
+}
+.categories {
+ background-color:#ffffb3;
+ color:black;
+ border: 2px solid black;
+ padding:15px;
+ margin: 10px;
+}
+#bp{
+font-family:Times New Roman;
+font-size:30px;
+background-color: #ffffb3;
+color: black;
+padding: 30px;
+text-align: center;
+}
+</style>
+<title>Classes of book passage</title>
+</head>
+<body>
+<h1 id="bp">Book Passage</h1>
+<p><a href="#100">Jump to religous books section</a></p>
+<p><a href="#101">Jump to historical books section</a></p>
+<div class="categories">
+<h2><strong>Fiction</strong></h2>
+<p style="font-size:18px;">Fiction Books will help to boost your imagination</p>
+</div>
+<div class="categories">
+<h2><strong>Non-Fiction</strong></h2>
+<p style="font-size:18px;">Non-Fiction Books are based on Reality</p>
+</div>
+<div class="categories">
+<h2><strong>Novels</strong></h2>
+<p style="font-size:18px;">Read Novels of your Famous Personalities and get inspired</p>
+</div>
+<div class="categories">
+<h2><strong>Biographies</strong></h2>
+<p style="font-size:18px;">Biographies will help to learn from the other's past experience</p>
+</div>
+<div class="categories">
+<h2 id="100"><strong>Religous</strong></h2>
+<p style="font-size:18px;">Religous books will help to learn More about rituals of vaerious countries</p>
+</div>
+<div class="categories">
+<h2 id="101"><strong>Historical</strong></h2>
+<p style="font-size:18px;">Historical books will help you to learn more about various countries</p>
+</div>
+<br>
+</body>
+</html>

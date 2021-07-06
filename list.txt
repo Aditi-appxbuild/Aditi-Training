@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+background-image:url('https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash-1536x901.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size=100% 100%;
+}
+table, th, td {
+border:1px solid black;
+border-collapse:collapse;
+}
+th,td{
+text-align:center;
+padding: 10px;
+}
+<title>Kist</title>
+</style>
+</head>
+<body>
+<h1 style="color:white; text-align:center; font-size:40px;">Book Passage</h1>
+<br>
+<p style="text-align:center; color:white; font-size:25px;">Looking for new released Books or Bestsellers?<br> 
+Don't worry! We Help you to choose best book as your Requirement<br>
+We sell variety of books like Fiction and Non-fiction, Historical, Religious and many more<br>
+<b>Our main focus is on supplying Indian books by Indian Authors World Wide</b></p>
+<br>
+<ol style="color:white;">
+<li>Fiction</li>
+<li>Non-Fiction</li>
+<li>Novels</li>
+<li>Biographies</li>
+</ol>
+<br>
+<dl style="color:white;">
+<dt>Fiction</dt>
+<ul>
+<li><dd>The Power of Subconcious Mind</dd></li>
+<li><dd>Everyone Has a Story</dd></li>
+<li><dd>Once in a LIFE</dd></li>
+</ul>
+<dt>Non-Fiction</dt>
+<ul>
+<li><dd>Army Power</dd></li>
+<li><dd>Arjuna</dd></li>
+<li><dd>Ramayan</dd></li>
+</ul>
+<dt>Novels</dt>
+<ul>
+<li><dd>The Illusion power</dd></li>
+<li><dd>The God of Small Things</dd></li>
+<li><dd>The White Tiger</dd></li>
+</ul>
+<dt>Biographies</dt>
+<ul>
+<li><dd>Wings of Fire</dd></li>
+<li><dd>Swamivivekananda-A Biography</dd></li>
+<li><dd>Chatrapati Shivaji Maharaj</dd></li>
+</ul>
+</dl>
+<br>
+<img src="https://libraries.mit.edu/news/files/2014/03/ebboks.jpeg" alt="Online Book Store" style="width:30%; height:20%;">
+<br>
+<table style="color:Black; width:80%; background-color: #e6ffff;">
+<tr>
+<th>Sr no.</th>
+<th>Book Name</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+<tr>
+<td>1</td>
+<td>The White Tiger</td>
+<td>600/-</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The God of Small Things</td>
+<td>500/-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Wings of Fire</td>
+<td>800/-</td>
+<td>20</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Power of Subconcious Mind</td>
+<td>700/-</td>
+<td>11</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Everone has a Story</td>
+<td>400/-</td>
+<td>7</td>
+</tr>
+</body>
+</html>

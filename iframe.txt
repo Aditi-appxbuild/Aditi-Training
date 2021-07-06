@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<style>
+body {
+background-image:url('https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash-1536x901.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size=100% 100%;
+}
+<title>List</title>
+</style>
+</head>
+<body>
+<h1 style="color:white; text-align:center; font-size:40px;">Book Passage</h1>
+<br>
+<p style="text-align:center; color:white; font-size:25px;">Looking for new released Books or Bestsellers?<br> 
+Don't worry! We Help you to choose best book as your Requirement<br>
+We sell variety of books like Fiction and Non-fiction, Historical, Religious and many more<br>
+<b>Our main focus is on supplying Indian books by Indian Authors World Wide</b></p>
+<div style="Background-color:#ffd9b3; Font-size:20px; color:Black; text-align:center">
+<p>Hey! What are you waiting for?<br>
+Buy your 3 Favrioute Books and Get Rewards upto<span style="color:blue;"> 500/-</span><br>
+Hurry Up!</p>
+</div>
+<br>
+<ol style="color:white; font-size:20px;">
+<li>Fiction</li>
+<li>Non-Fiction</li>
+<li>Novels</li>
+<li>Biographies</li>
+</ol>
+<br>
+<dl style="color:white; font-size:20px;">
+<dt>Fiction</dt>
+<ul>
+<li><dd>The Power of Subconcious Mind</dd></li>
+<li><dd>Everyone Has a Story</dd></li>
+<li><dd>Once in a LIFE</dd></li>
+</ul>
+<dt>Non-Fiction</dt>
+<ul>
+<li><dd>Army Power</dd></li>
+<li><dd>Arjuna</dd></li>
+<li><dd>Ramayan</dd></li>
+</ul>
+<dt>Novels</dt>
+<ul>
+<li><dd>The Illusion power</dd></li>
+<li><dd>The God of Small Things</dd></li>
+<li><dd>The White Tiger</dd></li>
+</ul>
+<dt>Biographies</dt>
+<ul>
+<li><dd>Wings of Fire</dd></li>
+<li><dd>Swamivivekananda-A Biography</dd></li>
+<li><dd>Chatrapati Shivaji Maharaj</dd></li>
+</ul>
+</dl>
+<br>
+<br>
+<iframe src="file:///C:/Users/user/Desktop/Class.html#101"; border:no-border; title="Classes of Book Passage"; "height=80%; width=100%;"></iframe>
+<br>
+</body>
+</html>

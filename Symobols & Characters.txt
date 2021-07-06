@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<h1> Symnbols and Characters</h1>
+
+<p>Percent : &cent;</p>
+<p>Euro : &euro;</p>
+<p>Pound : &pound;</p>
+<p>Copyright : &copy;</p>
+<p>Null/Empty : &empty;</p>
+
+<p> Display A, B, C</p>
+<p>It will be like &#65; &#66; &#67;</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+background-image:url('https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash-1536x901.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size=100% 100%;
+}
+<title>Image</title>
+</style>
+</head>
+<body>
+<h1 style="color:white; text-align:center">Book Passage</h1>
+<br>
+<p style="text-align:center; color:white;">Looking for new released Books or Bestsellers?<br> 
+Don't worry! We Help you to choose best book as your Requirement<br>
+We sell variety of books like Fiction and Non-fiction, Historical, Religious and many more<br>
+<b>Our main focus is on supplying Indian books by Indian Authors World Wide</b></p>
+<br>
+<img src="https://libraries.mit.edu/news/files/2014/03/ebboks.jpeg" alt="Online Book Store" style="width:30%; height:20%;">
+<br>
+<br>
+<br>
+<address style="text-align:right; color:white;">
+Civil Lines<br>
+Nagpur<br>
+Maharashtra<br>
+</address>
+</body>
+</html>

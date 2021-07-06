@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1 {
+  width: 410px;
+  height: 360px;
+  padding: 10px;
+  border: 2px solid #aaaaaa;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style>
+#bp { 
+color:orange;
+font-size:20px;
+font-family: Times New Roman;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center">Book Passage</h1>
+<pre style="text-align:center; font-family:courier"><q>T U R N _ <sub>T H E </sub>_ P A G E</q></pre>
+
+<h4 id="bp">Drag the book image into the rectangle:</h4>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="https://assets.website-files.com/5509bda13cd56c1a716d17d1/5571e6d2ceff75333132a107_BookTL3.gif" draggable="true" ondragstart="drag(event)" width="400" height="350">
+
+<a href="https://www.buybooksindia.com/" target="_blank"><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/8-Books-To-Read-for-a-PRINCE2.jpg" alt="Book" width="600px" height="350px"></a>
+</body>
+</html>
