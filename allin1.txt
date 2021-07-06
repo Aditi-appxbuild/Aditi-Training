@@ -7,6 +7,7 @@ background-image:url('https://www.detroitlabs.com/wp-content/uploads/2018/02/alf
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-size=100% 100%;
+color:white;
 }
 table, th, td {
 border:1px solid black;
